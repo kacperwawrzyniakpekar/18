@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Okno 1</title>
+    <style>
+        /* Prosty efekt animacji zamiast marquee */
+        .animated-text {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            animation: typing 4s steps(30, end) infinite alternate;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-text">Wawrzyniak-Pekar</div>
+</body>
+</html>
